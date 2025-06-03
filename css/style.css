@@ -1,0 +1,38 @@
+body {
+    background-color:azure
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-items: center;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skill-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.skill-item p {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+@media (max-width: 480px) {
+  .skill-item img {
+    width: 48px;
+    height: 48px;
+  }
+}

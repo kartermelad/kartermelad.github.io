@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width', intitial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title> Karter Melad - Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
+    <!-- Navigation Bar -->
     <header class="site-head">
         <nav class="nav-container">
             <div class="logo">
-                <a href="#home">KarterMelad()</a>
+                <a href="#home">KarterMelad</a>
             </div>
             <ul class="nav-links">
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,14 +27,98 @@
         </nav>
     </header>
 
-    <section id="home" class="section hero-section">
-        <div class="hero-content">
-            <h1>Hello, I'm <span class="highlight">Karter Melad</span>.</h1>
-            <p> Recent Computer Science graduate from Boise State University. Passionate about software development.</p>
-            <a class="btn-primary" href="#about>">Learn More ↓</a>
-        </div>
-    </section>
+    <main>
+        <!-- Hero/Home Section-->
+        <section id="home" class="section hero-section">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Karter Melad</span>. I'm a Software Developer.</h1>
+                <a class="btn-primary" href="#about">Learn More ↓</a>
+            </div>
+        </section>
 
-    
+        <!-- About Section-->
+        <section id="about" class="section about-section">
+            <div class="wrapper">
+                <h2>About Me</h2>
+                <p>
+                    I'm <strong>Karter Melad</strong>, a Computer Science graduate at Boise State University (May 2025), with a minor in Applied Mathematics. 
+                    Over the last four years, I've built full-stack applications, most notably integrating a Flutter mobile frontend with a Node.js/Express backend for my Senior Design Project. 
+                    I thrive in Agile/Scrum environments, collaborate on GitHub to deliver high-quality software, and enjoy learning new languages and frameworks in my spare time.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="wrapper">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="images/java-logo.png" alt="Java Logo" />
+                        <p>Java</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/js-logo.webp" alt="JavaScript Logo" />
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/c-logo.png" alt="C Logo" />
+                        <p>C</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/html5-logo.webp" alt="HTML5 Logo" />
+                        <p>HTML</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="wrapper">
+                <h2>Projects</h2>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="images/pong-battle-ai.png" alt="Pong Battle AI Screenshot" /> -->
+                    </div>
+                    <div class="project-info">
+                        <h3>Pong Battle AI</h3>
+                        <p>
+                            A multi-agent Pong environment built with Gymnasium and Pygame. 
+                            Trained a PPO agent to control the left paddle while the right paddle uses a scripted opponent. 
+                            Includes a custom <code>render()</code> for real-time visualization.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/kartermelad/pong-ai-battle" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="wrapper">
+                <h2>Contact Me</h2>
+                <form>
+                </form>
+
+                <div class="contact-info">
+                    <p><strong>Email:</strong> <a href="mailto:kartermelad@gmail.com">kartermelad@gmail.com</a></p>
+                    <p><strong>Phone:</strong> (208) 800-4975</p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/kartermelad" target="_blank">github.com/kartermelad</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/karter-melad-52011817a/" target="_blank">linkedin.com/in/karter-melad-52011817a</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>KARTER MELAD ©2025</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
