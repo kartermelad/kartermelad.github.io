@@ -4,10 +4,10 @@ body {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, 150px);
+  gap: 3rem 15rem;
+  justify-content: center;
   margin-top: 2rem;
-  justify-items: center;
 }
 
 .skill-item {
@@ -18,8 +18,8 @@ body {
 }
 
 .skill-item img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
   margin-bottom: 0.5rem;
 }
