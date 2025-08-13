@@ -164,7 +164,7 @@ h2 {
 }
 
 .skills-section .wrapper > h2 {
-  margin-bottom: 6rem;
+  margin-bottom: 12rem;
 }
 
 .skills-grid {
@@ -244,4 +244,11 @@ h2 {
 .contact-section {
   background-color: #f7f5f5;
   padding: 2rem 0rem;
+}
+
+@media (orientation: portrait) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem 1.5rem;
+  }
 }
