@@ -289,7 +289,7 @@ h2 {
 @media (orientation: portrait) {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 9rem 2rem;
+    gap: 6rem 2rem;
     justify-items: center;
   }
 }
